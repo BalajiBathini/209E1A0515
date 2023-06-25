@@ -25,7 +25,7 @@ app.get('/numbers', async (req, res) => {
                 return data;
             }
         } catch (error) {
-            console.log(error);
+            // Request error or timeout, ignore the URL
         }
         return [];
     });
