@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 
 const app = express();
-const timeout = 500; // milliseconds
+const timeout = 1000; // milliseconds
 
 app.get('/numbers', async (req, res) => {
     // getting url param data.
